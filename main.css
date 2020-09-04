@@ -88,10 +88,6 @@ a {
     padding-left: 7rem;
     padding-right: 7rem;
   }
-
-  .box{
-    padding: 3rem 5rem;
-  }
 }
 
 .btn {
@@ -303,19 +299,16 @@ header {
   width: 100%;
 }
 
-.col {
+.box {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-}
-
-.box {
-  border: 5px solid white;
-  border-radius: 0.9rem;
   margin: 2rem;
   padding: 1rem;
   background-color: rgba(228, 233, 227, 0.9);
+  border: 5px solid white;
+  border-radius: 0.9rem;
 }
 
 .box:hover {
